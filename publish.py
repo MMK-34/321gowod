@@ -2,6 +2,7 @@
 
 Usage:  python publish.py [YYYY-MM-DD]      (default: today, UTC)
         python publish.py --refresh-token  (extends the 60-day token, prints new expiry)
+        python publish.py --check          (read-only: confirms the token and account, posts nothing)
 
 Env:    IG_TOKEN     long-lived Instagram access token
         PUBLIC_BASE  public URL of the repo root, e.g. https://raw.githubusercontent.com/<user>/<repo>/main
@@ -94,5 +95,8 @@ if __name__ == "__main__":
     arg = sys.argv[1] if len(sys.argv) > 1 else None
     if arg == "--refresh-token":
         refresh()
+    elif arg == "--check":
+        me = call("GET", "me", fields="user_id,username,account_type,media_count")
+        print(f"connected: @{me['username']} ({me.get('account_type')}), {me.get('media_count', 0)} posts")
     else:
         publish(arg or datetime.datetime.now(datetime.timezone.utc).date().isoformat())
