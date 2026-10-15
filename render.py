@@ -49,7 +49,10 @@ def caption(w, brand):
     lines += [""]
     if w.get("question"):
         lines += [f"{w['question']} 👇"]
-    lines += [w.get("cta", "Save it for your next session 📌 Tag your training partner."), "",
+    lines += [w.get("cta", "Save it for your next session 📌 Tag your training partner.")]
+    if brand.get("promo"):
+        lines += [brand["promo"]]
+    lines += ["",
               f"{brand['types'][w['type']].get('tags', '')} {brand['hashtags']}".strip()]
     return "\n".join(lines)
 
