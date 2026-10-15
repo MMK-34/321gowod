@@ -1,0 +1,34 @@
+name: Daily WOD post
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 11:00 UTC = 14:00 Istanbul, 07:00 New York
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Post date (YYYY-MM-DD), empty = today"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency: daily-post
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Publish to Instagram
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python publish.py ${{ github.event.inputs.date }}
+      - name: Record published post
+        run: |
+          git config user.name "321go-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add posts/*/published.json
+          git diff --cached --quiet || (git commit -m "published $(date -u +%F)" && git push)

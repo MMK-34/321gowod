@@ -1,0 +1,17 @@
+{
+  "name": "3·2·1 GO",
+  "handle": "@321go.wod",
+  "paper": "#F3F1EA",
+  "ink": "#111111",
+  "types": {
+    "FOR TIME": { "accent": "#FF3B1F", "on": "#111111", "tags": "#fortime #wod" },
+    "EMOM":     { "accent": "#2D5BFF", "on": "#FFFFFF", "tags": "#emom #wod" },
+    "AMRAP":    { "accent": "#C8F031", "on": "#111111", "tags": "#amrap #wod" },
+    "LADDER":   { "accent": "#FFB020", "on": "#111111", "tags": "#ladderworkout #wod" },
+    "PARTNER":  { "accent": "#FF4FA3", "on": "#111111", "tags": "#partnerworkout #trainwithfriends" },
+    "CHIPPER":  { "accent": "#7A5CFF", "on": "#FFFFFF", "tags": "#chipper #wod" },
+    "TABATA":   { "accent": "#14C8A8", "on": "#111111", "tags": "#tabata #homeworkout" },
+    "HYBRID":   { "accent": "#22D3EE", "on": "#111111", "tags": "#hyrox #hyroxtraining #hybridtraining" }
+  },
+  "hashtags": "#crossfit #workoutoftheday #functionalfitness #fitness #training"
+}

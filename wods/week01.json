@@ -1,0 +1,163 @@
+{
+  "week": 1,
+  "wods": [
+    {
+      "day": 1, "date": "2026-10-19", "format": "single", "photo": "kettlebell_swing_m01",
+      "type": "FOR TIME", "title": "Ignition", "hero": "FOR TIME",
+      "chips": ["3 Rounds", "Cap 15:00", "Score: Time"],
+      "scheme": "3 rounds for time of:",
+      "movements": [
+        {"reps": "400 m", "name": "Run", "scaled": "300 m Run", "nogear": "400 m Run"},
+        {"reps": "21", "name": "Kettlebell Swings", "load": "24 / 16 kg", "scaled": "21 KB Swings · 16/12 kg", "nogear": "21 Jump Squats"},
+        {"reps": "12", "name": "Pull-ups", "scaled": "12 Ring Rows", "nogear": "12 Burpees"}
+      ],
+      "scaled_short": "300 m run · KB 16/12 kg · ring rows instead of pull-ups",
+      "nogear_short": "Jump squats instead of swings · burpees instead of pull-ups",
+      "target": "9–13 min",
+      "hook": "Day 1. Three rounds. Nowhere to hide. 🔥",
+      "story": "A short, honest Monday opener. Run, swing, pull — nothing fancy, just enough to wake up the whole body and set the tone for the week.",
+      "tip": "Treat the 400 m as a strong jog, not a sprint. You win this workout by going straight into the swings without standing around.",
+      "question": "What was your time — and which round hurt the most?"
+    },
+    {
+      "day": 2, "date": "2026-10-20", "format": "single", "photo": "wall_ball_m01",
+      "type": "EMOM", "title": "Clockwork", "hero": "EMOM 16",
+      "chips": ["16 Min", "4 Rounds", "Score: Missed reps"],
+      "scheme": "Every minute on the minute, 4 rounds:",
+      "movements": [
+        {"reps": "Min 1", "name": "12 Wall Balls", "load": "9 / 6 kg", "scaled": "10 Wall Balls · 6/4 kg", "nogear": "15 Air Squats"},
+        {"reps": "Min 2", "name": "10 Toes-to-Bar", "scaled": "10 Hanging Knee Raises", "nogear": "12 V-ups"},
+        {"reps": "Min 3", "name": "12 / 10 Cal Row", "load": "♂ / ♀", "scaled": "10/8 Cal Row", "nogear": "10 Burpees"},
+        {"reps": "Min 4", "name": "8 DB Snatches", "load": "22.5 / 15 kg · alternating", "scaled": "8 DB Snatches · 15/10 kg", "nogear": "20 Alternating Lunges"}
+      ],
+      "scaled_short": "10 wall balls 6/4 kg · knee raises · 10/8 cal · DB 15/10 kg",
+      "nogear_short": "15 air squats · 12 V-ups · 10 burpees · 20 lunges",
+      "target": "15–20 s rest every minute",
+      "hook": "No pacing decisions today. The clock is your coach. ⏱️",
+      "story": "Four stations, sixteen minutes, zero thinking. EMOMs are perfect when your head is busy — just show up for every minute and the work takes care of itself.",
+      "tip": "If you finish with less than 10 seconds of rest, drop 2 reps next round. Quality beats survival.",
+      "question": "Did you hit every minute, or did the row get you? 😅"
+    },
+    {
+      "day": 3, "date": "2026-10-21", "format": "carousel", "photo": "barbell_overhead_m01",
+      "type": "AMRAP", "title": "Long Game", "hero": "AMRAP 20",
+      "chips": ["20 Min", "Score: Rounds + Reps"],
+      "scheme": "As many rounds as possible in 20 min:",
+      "movements": [
+        {"reps": "5", "name": "Power Cleans", "load": "60 / 40 kg", "scaled": "5 Power Cleans · 40/30 kg", "nogear": "10 Jumping Lunges"},
+        {"reps": "10", "name": "Push-ups", "scaled": "10 Incline Push-ups", "nogear": "10 Push-ups"},
+        {"reps": "15", "name": "Air Squats", "scaled": "15 Air Squats", "nogear": "15 Air Squats"},
+        {"reps": "200 m", "name": "Run", "scaled": "200 m Run", "nogear": "200 m Run"}
+      ],
+      "scaled_short": "Cleans 40/30 kg · incline push-ups",
+      "nogear_short": "10 jumping lunges instead of cleans",
+      "target": "6–9 rounds",
+      "plan": {
+        "stimulus": "A pacing test. Pick a speed you can hold for 20 minutes and keep every round within 10 seconds of your first one.",
+        "tips": [
+          "Cleans: switch to quick singles from round 3 — before fatigue makes the choice for you.",
+          "Push-ups: break early (6 + 4) instead of grinding to failure.",
+          "The run is your recovery. Breathe, shake out the arms, go again."
+        ]
+      },
+      "hook": "Mid-week AMRAP. The goal isn't to start fast — it's to finish strong. 🧠",
+      "story": "A barbell, the floor and a short run. Simple pieces, but twenty minutes of them teaches you more about pacing than any long explanation could. Swipe for the scaling options and the game plan →",
+      "tip": "Write your round count on the wall after every lap. Seeing the number keeps you honest.",
+      "question": "How many rounds did you get? Drop it below and let's compare"
+    },
+    {
+      "day": 4, "date": "2026-10-22", "format": "single", "photo": "deadlift_m01",
+      "type": "LADDER", "title": "Stairway", "hero": "LADDER",
+      "chips": ["12 Min", "+2 every round", "Score: Last rung"],
+      "scheme": "2-4-6-8-10… — add 2 reps every round, 12 min:",
+      "movements": [
+        {"reps": "+2", "name": "Deadlifts", "load": "80 / 55 kg", "scaled": "Deadlifts · 60/40 kg", "nogear": "Push-ups"},
+        {"reps": "+2", "name": "Box Jump-overs", "load": "60 / 50 cm", "scaled": "Box Step-overs · 50/40 cm", "nogear": "Squat Jumps"}
+      ],
+      "scaled_short": "Deadlifts 60/40 kg · box step-overs",
+      "nogear_short": "Push-ups + squat jumps, same ladder",
+      "target": "Reach the 12-rep rung",
+      "hook": "Easy start. Then it isn't. How high can you climb? 🪜",
+      "story": "The first rounds feel like a warm-up — that's the trap. Every rung adds two reps, and somewhere around 10 the ladder starts asking real questions.",
+      "tip": "Keep the deadlifts touch-and-go only while your back stays flat. The moment it rounds, switch to quick singles.",
+      "question": "Which rung did you finish on?"
+    },
+    {
+      "day": 5, "date": "2026-10-23", "format": "carousel", "photo": "partner_highfive_mf01",
+      "type": "PARTNER", "title": "Buddy System", "hero": "PARTNER",
+      "chips": ["Teams of 2", "Cap 25:00", "Score: Time"],
+      "scheme": "For time · split reps any way · one works at a time:",
+      "movements": [
+        {"reps": "100", "name": "Wall Balls", "load": "9 / 6 kg", "scaled": "80 Wall Balls · 6/4 kg", "nogear": "100 Air Squats"},
+        {"reps": "80", "name": "Cal Row", "scaled": "60 Cal Row", "nogear": "800 m Run · 200 m relays"},
+        {"reps": "60", "name": "Burpees", "scaled": "40 Burpees", "nogear": "60 Burpees"},
+        {"reps": "40", "name": "Pull-ups", "scaled": "40 Ring Rows", "nogear": "40 Push-ups"},
+        {"reps": "20", "name": "Synchro Burpees", "load": "together, in sync", "scaled": "20 Synchro Burpees", "nogear": "20 Synchro Burpees"}
+      ],
+      "scaled_short": "80 WB 6/4 kg · 60 cal · 40 burpees · ring rows",
+      "nogear_short": "Air squats · 800 m relay run · push-ups",
+      "target": "16–22 min",
+      "plan": {
+        "heading": "HOW IT WORKS",
+        "stimulus": "Two people, one clock. Only one partner works at a time — the other rests, counts and decides when to switch.",
+        "tips": [
+          "Switch every 10 wall balls / 10 cal. Short sets keep you both fast.",
+          "The resting partner counts reps out loud and calls the switch.",
+          "Synchro burpees: both chests down, both jump together. No sync, no rep."
+        ]
+      },
+      "hook": "Friday = bring a friend. Tag the person who's suffering with you today 👇",
+      "story": "Grab a friend, a training partner, your sibling — anyone who'll high-five you at the end. Split the work however you like. The synchro burpees at the end? Those you do together.",
+      "tip": "Plan your switches before the clock starts. Teams that talk less and switch more always finish faster.",
+      "question": "Who's your partner for this one? Tag them",
+      "cta": "Save it for Friday ⬇️ Post your team time in the comments."
+    },
+    {
+      "day": 6, "date": "2026-10-24", "format": "carousel", "photo": "row_m01",
+      "type": "HYBRID", "title": "Race Pace", "hero": "HYBRID",
+      "chips": ["Hyrox-style", "Cap 45:00", "Score: Time"],
+      "scheme": "For time · run 1 km before every station:",
+      "movements": [
+        {"reps": "750 m", "name": "SkiErg", "scaled": "500 m SkiErg", "nogear": "30 Burpee Broad Jumps"},
+        {"reps": "50 m", "name": "Sled Push", "load": "heavy · 2–3 pushes max", "scaled": "50 m Sled Push · lighter", "nogear": "50 Walking Lunges"},
+        {"reps": "750 m", "name": "Row", "scaled": "500 m Row", "nogear": "40 Burpees"},
+        {"reps": "75", "name": "Wall Balls", "load": "6 / 4 kg", "scaled": "50 Wall Balls · 6/4 kg", "nogear": "75 Air Squats"}
+      ],
+      "scaled_short": "600 m runs · 500 m ski/row · 50 wall balls",
+      "nogear_short": "Burpee broad jumps · lunges · burpees · air squats between 1 km runs",
+      "target": "32–42 min",
+      "plan": {
+        "heading": "RACE PLAN",
+        "stimulus": "Half a race, full lessons. This is about running well on tired legs — the skill that decides every HYROX finish.",
+        "tips": [
+          "Run every 1 km at the same pace. Write your splits; the last one tells the truth.",
+          "Ski and row at a pace you can breathe through — they're not the place to win time.",
+          "Wall balls: big sets early (25–20–15–15), short breaks, never a long stop."
+        ]
+      },
+      "hook": "Saturday is race day. Your legs just don't know it yet. 🏁",
+      "story": "Training for HYROX — or just want a long, steady sweat? Four runs, four stations, one rhythm. Swipe for the scaling and the race plan →",
+      "tip": "The first run should feel too easy. If it doesn't, you're going too fast.",
+      "question": "Racing HYROX this season? Tell us your division and target time"
+    },
+    {
+      "day": 7, "date": "2026-10-25", "format": "single", "photo": "jump_squat_f01",
+      "type": "TABATA", "title": "Sunday Eights", "hero": "TABATA",
+      "chips": ["16 Min", "No equipment", "Score: Lowest round"],
+      "scheme": "8 × (20 s work / 10 s rest) each · 1 min rest between:",
+      "movements": [
+        {"reps": "8×", "name": "Jump Squats", "scaled": "Air Squats", "nogear": "Jump Squats"},
+        {"reps": "8×", "name": "Push-ups", "scaled": "Knee Push-ups", "nogear": "Push-ups"},
+        {"reps": "8×", "name": "Hollow Rocks", "scaled": "Tuck Hollow Hold", "nogear": "Hollow Rocks"},
+        {"reps": "8×", "name": "Burpees", "scaled": "Step-back Burpees", "nogear": "Burpees"}
+      ],
+      "scaled_short": "Air squats · knee push-ups · tuck hold · step-back burpees",
+      "nogear_short": "Already zero gear — living room, park, hotel room.",
+      "target": "Sum of your lowest rounds",
+      "hook": "Sunday. 16 minutes. Anywhere. No excuses left. 🌤️",
+      "story": "No gym, no gear, no problem. Put a timer on your phone, clear a square of floor and give it sixteen honest minutes. Then go enjoy your Sunday.",
+      "tip": "Count every round and write down the lowest number for each movement. Your score is the sum — so don't blow up in round one.",
+      "question": "Where did you do it today — home, park, or hotel room?"
+    }
+  ]
+}

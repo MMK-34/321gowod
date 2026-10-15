@@ -1,0 +1,23 @@
+name: Refresh Instagram token
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # every Monday; the token lives 60 days
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      GH_PAT: ${{ secrets.GH_PAT }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: refresh
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python3 publish.py --refresh-token
+      - name: Store the new token (only if Instagram issued a different one)
+        if: steps.refresh.outputs.new_token != '' && env.GH_PAT != ''
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: gh secret set IG_TOKEN --body "${{ steps.refresh.outputs.new_token }}" --repo "$GITHUB_REPOSITORY"

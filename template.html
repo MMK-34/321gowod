@@ -1,0 +1,123 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@500;700;800&display=block" rel="stylesheet">
+<style>
+:root{--ink:#111;--paper:#F3F1EA;--accent:#FF3B1F;--on:#111}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden;background:var(--paper);color:var(--ink);font-family:'Archivo',sans-serif}
+.card{width:1080px;height:1350px;display:flex;flex-direction:column}
+.top{background:var(--accent);color:var(--on);padding:52px 64px 44px}
+.top{position:relative;overflow:hidden}
+.top.photo{background:#0B0B0B;color:#F7F5EE;height:660px;display:flex;flex-direction:column}
+.ph{position:absolute;inset:0;background:var(--accent)}
+.ph img{width:100%;height:100%;object-fit:cover;object-position:var(--focus,50% 50%);filter:grayscale(1) contrast(1.25) brightness(1.08);mix-blend-mode:multiply;opacity:.92}
+.ph::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,8,8,.62) 0%,rgba(8,8,8,.08) 30%,rgba(8,8,8,.10) 52%,rgba(8,8,8,.88) 100%)}
+.top>*:not(.ph){position:relative}
+.top.photo .title{margin-top:auto}
+.top.photo .title span{opacity:.6}
+.top.photo .hero{text-shadow:0 4px 40px rgba(0,0,0,.35)}
+.top.photo .chip{background:var(--accent);color:var(--on);border-color:var(--accent)}
+.top.photo .brand{color:var(--accent)}
+.bar{display:flex;justify-content:space-between;align-items:center}
+.brand{font-family:'Anton';font-size:46px;letter-spacing:.02em}
+.date{font-family:'JetBrains Mono';font-weight:800;font-size:25px;letter-spacing:.06em;text-transform:uppercase;text-align:right;line-height:1.25}
+.title{margin-top:46px;font-weight:900;font-stretch:125%;font-size:44px;letter-spacing:.01em;text-transform:uppercase}
+.title span{font-family:'JetBrains Mono';font-weight:800;font-stretch:100%;font-size:30px;opacity:.75;margin-right:14px;vertical-align:4px}
+.hero{font-family:'Anton';font-size:220px;line-height:.9;margin-top:10px;text-transform:uppercase;white-space:nowrap;overflow:hidden}
+.chips{display:flex;gap:12px;margin-top:30px;flex-wrap:wrap}
+.chip{border:3px solid currentColor;border-radius:999px;padding:9px 22px;font-family:'JetBrains Mono';font-weight:800;font-size:24px;letter-spacing:.04em;text-transform:uppercase}
+.body{flex:1;min-height:0;padding:40px 64px 0;overflow:hidden}
+.inner{transform-origin:top left}
+.scheme{font-family:'JetBrains Mono';font-weight:800;font-size:26px;letter-spacing:.03em;text-transform:uppercase;margin-bottom:10px}
+.list{display:grid;grid-template-columns:max-content 1fr;column-gap:36px}
+.list>div{border-bottom:3px solid var(--ink);padding:20px 0}
+.reps{font-family:'Anton';font-size:78px;line-height:1;white-space:nowrap}
+.mv{font-weight:900;font-stretch:78%;font-size:54px;line-height:1;text-transform:uppercase;align-self:center}
+.load{display:block;font-family:'JetBrains Mono';font-weight:700;font-stretch:100%;font-size:25px;margin-top:8px;text-transform:none;color:#555}
+.tiers{margin-top:30px;display:grid;grid-template-columns:max-content 1fr;column-gap:22px;row-gap:12px;font-size:28px;font-weight:600;line-height:1.25}
+.tag{font-family:'JetBrains Mono';font-weight:800;font-size:21px;letter-spacing:.06em;background:var(--ink);color:var(--paper);padding:6px 12px;align-self:start;margin-top:2px}
+.foot{height:96px;flex:none;margin:0 64px;border-top:3px solid var(--ink);display:flex;justify-content:space-between;align-items:center;font-family:'JetBrains Mono';font-weight:800;font-size:23px;letter-spacing:.05em;text-transform:uppercase}
+.foot .cta{background:var(--accent);color:var(--on);padding:8px 16px}
+/* scale table */
+table{width:100%;border-collapse:collapse}
+th{font-family:'JetBrains Mono';font-weight:800;font-size:24px;letter-spacing:.06em;text-align:left;padding:0 18px 14px 0}
+th:first-child{width:36%}
+td{border-top:3px solid var(--ink);padding:20px 18px 20px 0;font-size:31px;font-weight:700;line-height:1.15;vertical-align:top}
+td:first-child{font-weight:900;font-stretch:80%;font-size:36px;text-transform:uppercase}
+td small{display:block;font-family:'JetBrains Mono';font-weight:700;font-size:21px;color:#555;margin-top:6px;text-transform:none}
+/* plan */
+.lead{font-size:44px;font-weight:700;line-height:1.18;letter-spacing:-.01em}
+.target{display:inline-block;margin:34px 0 10px;background:var(--ink);color:var(--paper);font-family:'JetBrains Mono';font-weight:800;font-size:28px;padding:12px 20px;text-transform:uppercase;letter-spacing:.03em}
+.tips{list-style:none;counter-reset:t;margin-top:24px}
+.tips li{counter-increment:t;display:grid;grid-template-columns:80px 1fr;border-top:3px solid var(--ink);padding:22px 0;font-size:33px;font-weight:600;line-height:1.22}
+.tips li::before{content:counter(t,decimal-leading-zero);font-family:'Anton';font-size:46px;line-height:1}
+</style></head>
+<body><div class="card" id="card"></div>
+<script>
+const W = window.WOD, B = window.BRAND, S = window.SLIDE || 1;
+const T = B.types[W.type];
+const r = document.documentElement.style;
+r.setProperty('--accent', T.accent); r.setProperty('--on', T.on);
+r.setProperty('--paper', B.paper); r.setProperty('--ink', B.ink);
+const esc = s => String(s ?? '').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const d = new Date(W.date + 'T12:00:00');
+const dateStr = d.toLocaleDateString('en-GB', {weekday:'short'}) + ' ' +
+  d.toLocaleDateString('en-GB', {day:'2-digit', month:'2-digit', year:'2-digit'}).replace(/\//g, '.');
+const num = String(W.day).padStart(3, '0');
+const slides = W.format === 'carousel' ? 3 : 1;
+
+function header(hero, chips) {
+  const P = window.PHOTO;
+  return `<div class="top${P ? ' photo' : ''}"${P ? ` style="--focus:${P.focus}"` : ''}>
+    ${P ? `<div class="ph"><img src="${P.src}"></div>` : ''}
+    <div class="bar"><div class="brand">${esc(B.name)}</div>
+      <div class="date">Day ${num}<br>${dateStr}</div></div>
+    <div class="title"><span>#${num}</span>${esc(W.title)}</div>
+    <div class="hero" id="hero">${esc(hero)}</div>
+    <div class="chips">${chips.map(c => `<div class="chip">${esc(c)}</div>`).join('')}</div>
+  </div>`;
+}
+function foot(left) {
+  return `<div class="foot"><span>${left}</span><span class="cta">${esc(B.handle)}</span></div>`;
+}
+
+let html = '';
+if (S === 1) {
+  const rows = W.movements.map(m => `<div class="reps">${esc(m.reps)}</div>
+    <div class="mv">${esc(m.name)}${m.load ? `<span class="load">${esc(m.load)}</span>` : ''}</div>`).join('');
+  const tiers = slides > 1 ? '' : `<div class="tiers">
+      <div class="tag">SCALED</div><div>${esc(W.scaled_short)}</div>
+      <div class="tag">NO GEAR</div><div>${esc(W.nogear_short)}</div></div>`;
+  html = header(W.hero, W.chips) +
+    `<div class="body"><div class="inner" id="inner"><div class="scheme">${esc(W.scheme)}</div>
+      <div class="list">${rows}</div>${tiers}</div></div>` +
+    foot(slides > 1 ? 'Swipe → scaling + game plan' : 'Drop your score ↓');
+} else if (S === 2) {
+  const rows = W.movements.map(m => `<tr><td>${esc(m.reps)} ${esc(m.name)}${m.load ? `<small>${esc(m.load)}</small>` : ''}</td>
+    <td>${esc(m.scaled)}</td><td>${esc(m.nogear)}</td></tr>`).join('');
+  html = header('SCALE IT', ['Same stimulus', 'Pick your lane']) +
+    `<div class="body"><div class="inner" id="inner"><table>
+      <tr><th>RX</th><th>SCALED</th><th>NO GEAR</th></tr>${rows}</table></div></div>` +
+    foot('Swipe → game plan');
+} else {
+  const P = W.plan;
+  html = header(P.heading || 'GAME PLAN', [W.hero, ...W.chips.slice(-1)]) +
+    `<div class="body"><div class="inner" id="inner"><p class="lead">${esc(P.stimulus)}</p>
+      <div class="target">Target · ${esc(W.target)}</div>
+      <ol class="tips">${P.tips.map(t => `<li>${esc(t)}</li>`).join('')}</ol></div></div>` +
+    foot('Drop your score ↓');
+}
+document.getElementById('card').innerHTML = html;
+
+function fit() {
+  const hero = document.getElementById('hero');
+  let fs = 220;
+  while (hero.scrollWidth > hero.clientWidth && fs > 80) { fs -= 4; hero.style.fontSize = fs + 'px'; }
+  const inner = document.getElementById('inner'), body = inner.parentElement;
+  let s = 1;
+  const room = body.clientHeight - 40 - 28;
+  while (inner.getBoundingClientRect().height > room && s > 0.5) { s -= 0.02; inner.style.zoom = s; }
+  document.body.dataset.ready = '1';
+}
+document.fonts.ready.then(fit);
+</script></body></html>

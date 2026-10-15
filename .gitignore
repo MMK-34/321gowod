@@ -1,0 +1,6 @@
+# Envato stock originals must NEVER be public (license) — only finished cards in posts/ are published
+library/photos/
+library/videos/
+out/
+__pycache__/
+*.pyc

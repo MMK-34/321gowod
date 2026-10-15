@@ -1,0 +1,86 @@
+[
+ {
+  "date": "2026-10-19",
+  "day": 1,
+  "title": "Ignition",
+  "type": "FOR TIME",
+  "movements": [
+   "Run",
+   "Kettlebell Swings",
+   "Pull-ups"
+  ]
+ },
+ {
+  "date": "2026-10-20",
+  "day": 2,
+  "title": "Clockwork",
+  "type": "EMOM",
+  "movements": [
+   "12 Wall Balls",
+   "10 Toes-to-Bar",
+   "12 / 10 Cal Row",
+   "8 DB Snatches"
+  ]
+ },
+ {
+  "date": "2026-10-21",
+  "day": 3,
+  "title": "Long Game",
+  "type": "AMRAP",
+  "movements": [
+   "Power Cleans",
+   "Push-ups",
+   "Air Squats",
+   "Run"
+  ]
+ },
+ {
+  "date": "2026-10-22",
+  "day": 4,
+  "title": "Stairway",
+  "type": "LADDER",
+  "movements": [
+   "Deadlifts",
+   "Box Jump-overs"
+  ]
+ },
+ {
+  "date": "2026-10-23",
+  "day": 5,
+  "title": "Buddy System",
+  "type": "PARTNER",
+  "movements": [
+   "Wall Balls",
+   "Cal Row",
+   "Burpees",
+   "Pull-ups",
+   "Synchro Burpees"
+  ]
+ },
+ {
+  "date": "2026-10-24",
+  "day": 6,
+  "title": "The Long Way",
+  "type": "CHIPPER",
+  "movements": [
+   "Row",
+   "Goblet Squats",
+   "Sit-ups",
+   "DB Push Press",
+   "Bar-facing Burpees",
+   "Strict Pull-ups"
+  ]
+ },
+ {
+  "date": "2026-10-25",
+  "day": 7,
+  "title": "Sunday Eights",
+  "type": "TABATA",
+  "movements": [
+   "Jump Squats",
+   "Push-ups",
+   "Hollow Rocks",
+   "Burpees"
+  ]
+ }
+]

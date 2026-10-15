@@ -1,0 +1,12 @@
+{
+  "_note": "Envato Elements, lisans projesi: 321GO Instagram. focus = CSS object-position (kırpmada odak noktası).",
+  "photos": {
+    "kettlebell_swing_m01":  {"tags": ["kettlebell", "swing", "hinge"], "focus": "38% 30%", "source": "Man Working out with Kettlebell in Urban Setting — Click_and_Photo"},
+    "wall_ball_m01":         {"tags": ["wall ball", "medicine ball", "squat", "thruster"], "focus": "50% 35%", "source": "Man Doing Overhead Squat with a Medicine Ball — LightFieldStudios"},
+    "barbell_overhead_m01":  {"tags": ["barbell", "clean", "snatch", "overhead", "olympic"], "focus": "50% 40%", "source": "Man Lifting Heavy Barbell in Dark Gym — Image-Source"},
+    "deadlift_m01":          {"tags": ["barbell", "deadlift", "hinge"], "focus": "50% 45%", "source": "Man Lifting Barbell in Gym with Green Weights — demopicture"},
+    "partner_highfive_mf01": {"tags": ["partner", "team", "chalk"], "focus": "50% 30%", "source": "Gym Partnership for Fitness and Health — Click_and_Photo"},
+    "row_m01":               {"tags": ["row", "erg", "cardio"], "focus": "55% 50%", "source": "Man Using Rowing Machine at the Gym — Juan_Algar"},
+    "jump_squat_f01":        {"tags": ["jump", "squat", "bodyweight", "tabata"], "focus": "50% 45%", "source": "Athletic Woman Jumps in Dark Sports Environment — ArtemVarnitsin"}
+  }
+}
