@@ -1,0 +1,164 @@
+{
+  "week": 2,
+  "wods": [
+    {
+      "day": 8, "date": "2026-10-26", "format": "single", "photo": "bike_f01",
+      "type": "FOR TIME", "title": "Fast Lane", "hero": "FOR TIME",
+      "chips": ["21-15-9", "Cap 12:00", "Score: Time"],
+      "scheme": "21-15-9 reps for time of:",
+      "movements": [
+        {"reps": "21-15-9", "name": "DB Thrusters", "load": "2 × 22.5 / 15 kg", "scaled": "DB Thrusters · 2 × 12.5/7.5 kg", "nogear": "Jump Squats"},
+        {"reps": "21-15-9", "name": "Cal Bike", "load": "♀ 15-12-9 cal", "scaled": "15-12-9 Cal Bike", "nogear": "Burpees"}
+      ],
+      "scaled_short": "DB 2 × 12.5/7.5 kg · 15-12-9 cal bike",
+      "nogear_short": "Jump squats + burpees, same 21-15-9",
+      "target": "5–9 min",
+      "hook": "Week 2 starts in the fast lane. Short, sharp, done before your coffee cools. ☕🔥",
+      "story": "Two movements, three rounds, one rule: don't stop. Thrusters light up your legs and lungs at the same time, and the bike makes sure there's nowhere to hide. It's over quickly — that's exactly why it hurts.",
+      "tip": "Go unbroken on the 9s, no matter what. Break the 21s early (12 + 9) so you never stand over the dumbbells deciding.",
+      "question": "Sub-7 or survival mode? Drop your time 👀"
+    },
+    {
+      "day": 9, "date": "2026-10-27", "format": "single", "photo": "pullup_f01",
+      "type": "EMOM", "title": "Pendulum", "hero": "EMOM 16",
+      "chips": ["16 Min", "4 Stations", "Score: Missed reps"],
+      "scheme": "Every minute on the minute, 4 rounds:",
+      "movements": [
+        {"reps": "Min 1", "name": "12 DB Snatches", "load": "22.5 / 15 kg · alternating", "scaled": "12 DB Snatches · 15/10 kg", "nogear": "12 Jumping Lunges"},
+        {"reps": "Min 2", "name": "10 Pull-ups", "scaled": "10 Ring Rows", "nogear": "15 Superman Lifts"},
+        {"reps": "Min 3", "name": "10 Box Jumps", "load": "60 / 50 cm", "scaled": "10 Box Step-ups · 50/40 cm", "nogear": "12 Tuck Jumps"},
+        {"reps": "Min 4", "name": "15 Sit-ups", "scaled": "12 Sit-ups", "nogear": "15 Sit-ups"}
+      ],
+      "scaled_short": "DB 15/10 kg · ring rows · box step-ups · 12 sit-ups",
+      "nogear_short": "Jumping lunges · supermans · tuck jumps · sit-ups",
+      "target": "15–25 s rest every minute",
+      "hook": "Swing, pull, jump, breathe. Repeat until the clock says stop. ⏱️",
+      "story": "A steady back-and-forth Tuesday. Every minute asks one clear question — and gives you a little rest if you answer it fast. Great day to work on smooth, efficient reps instead of fast, messy ones.",
+      "tip": "Pull-ups: pick your strategy before the clock starts. If 10 unbroken isn't a sure thing, do 5 + 5 from round one — quick sets beat failed reps.",
+      "question": "Which minute was the toughest for you — snatch, pull, jump or sit-ups?"
+    },
+    {
+      "day": 10, "date": "2026-10-28", "format": "carousel", "photo": "run_f01",
+      "type": "AMRAP", "title": "Compromised", "hero": "AMRAP 20",
+      "chips": ["20 Min", "Hyrox-style", "Score: Rounds + Reps"],
+      "scheme": "As many rounds as possible in 20 min:",
+      "movements": [
+        {"reps": "400 m", "name": "Run", "scaled": "300 m Run", "nogear": "400 m Run"},
+        {"reps": "15", "name": "Wall Balls", "load": "6 / 4 kg", "scaled": "12 Wall Balls · 4/3 kg", "nogear": "20 Air Squats"},
+        {"reps": "12", "name": "Sandbag Lunges", "load": "20 / 10 kg · alternating", "scaled": "12 Lunges · 10/5 kg", "nogear": "16 Walking Lunges"},
+        {"reps": "6", "name": "Burpee Broad Jumps", "scaled": "6 Step-back Burpees", "nogear": "6 Burpee Broad Jumps"}
+      ],
+      "scaled_short": "300 m runs · wall balls 4/3 kg · lighter lunges",
+      "nogear_short": "Air squats + walking lunges between the runs",
+      "target": "5–7 rounds",
+      "plan": {
+        "heading": "RACE PLAN",
+        "stimulus": "Compromised running: every 400 m starts on tired legs. The goal is a run pace that barely changes from round 1 to the last round.",
+        "tips": [
+          "Run at a pace you could talk at. You'll win this workout at the stations, not on the road.",
+          "Wall balls: unbroken if possible — one short break max, never two.",
+          "Lunges + broad jumps: steady rhythm, then head straight back out the door."
+        ]
+      },
+      "hook": "Midweek HYROX-style. Run, squat, lunge, jump — then run again on legs that don't want to. 🏃‍♀️",
+      "story": "This is what race day really feels like: not fast running, but running after everything else. Twenty minutes to learn how your legs behave when they're already cooked. Swipe for the scaling and the race plan →",
+      "tip": "Note your round count every lap. If one round takes 20 seconds longer than the first, you started too hot.",
+      "question": "How many rounds did you get — and which station broke your run pace?"
+    },
+    {
+      "day": 11, "date": "2026-10-29", "format": "single", "photo": "burpee_m01",
+      "type": "LADDER", "title": "Pressure Point", "hero": "LADDER",
+      "chips": ["12 Min", "+3 every round", "Score: Last rung"],
+      "scheme": "3-6-9-12… — add 3 reps every round, 12 min:",
+      "movements": [
+        {"reps": "+3", "name": "Push Press", "load": "50 / 35 kg", "scaled": "Push Press · 35/25 kg", "nogear": "Pike Push-ups"},
+        {"reps": "+3", "name": "Bar-facing Burpees", "scaled": "Step-back Burpees over the bar", "nogear": "Burpees"}
+      ],
+      "scaled_short": "Push press 35/25 kg · step-back burpees",
+      "nogear_short": "Pike push-ups + burpees, same ladder",
+      "target": "Reach the 15-rep rung",
+      "hook": "Press. Burpee. Add three. Find out where your shoulders give up. 🪜",
+      "story": "The first rungs fly by and feel almost too easy. Then the bar gets heavier every time you pick it up, and the burpees stop being a rest. Somewhere around 12 reps the real workout starts.",
+      "tip": "Dip and drive with your legs — the push press is a leg movement that ends overhead. Shoulders alone won't get you to 15.",
+      "question": "Which rung did you finish on? Be honest 😅"
+    },
+    {
+      "day": 12, "date": "2026-10-30", "format": "carousel", "photo": "partner_ff01",
+      "type": "PARTNER", "title": "Tag Team", "hero": "PARTNER",
+      "chips": ["Teams of 2", "Cap 30:00", "Score: Time"],
+      "scheme": "For time · split reps any way · one works at a time:",
+      "movements": [
+        {"reps": "1600 m", "name": "Relay Run", "load": "400 m legs · alternate", "scaled": "1200 m · 300 m legs", "nogear": "1600 m Relay Run"},
+        {"reps": "80", "name": "Kettlebell Swings", "load": "24 / 16 kg", "scaled": "60 KB Swings · 16/12 kg", "nogear": "80 Jump Squats"},
+        {"reps": "60", "name": "Toes-to-Bar", "scaled": "50 Hanging Knee Raises", "nogear": "60 V-ups"},
+        {"reps": "200 m", "name": "Synchro Farmers Carry", "load": "both carry · 2 × 24/16 kg", "scaled": "200 m · 2 × 16/12 kg", "nogear": "100 m Synchro Bear Crawl"}
+      ],
+      "scaled_short": "1200 m relay · KB 16/12 kg · knee raises · lighter carry",
+      "nogear_short": "Relay run · jump squats · V-ups · synchro bear crawl",
+      "target": "18–26 min",
+      "plan": {
+        "heading": "HOW IT WORKS",
+        "stimulus": "Run the relay first: one partner runs 400 m while the other rests, four legs total. Then split the swings and toes-to-bar however you like. The carry at the end? Both of you, side by side.",
+        "tips": [
+          "Swings: switch every 10–15 reps. Short sets keep the bell moving.",
+          "Toes-to-bar: switch BEFORE your grip fails, not after.",
+          "Farmers carry: walk in step. If one of you drops the bells, you both stop."
+        ]
+      },
+      "hook": "Friday = tag team. Bring someone who won't let you walk the last lap. 🤝",
+      "story": "Split the work, share the suffering, high-five at the end. You rest while your partner works — and they're counting on you to be ready when they tag you. The farmers carry finishes it together, side by side.",
+      "tip": "Decide who runs first by who's the faster finisher. The stronger runner should take the 4th leg.",
+      "question": "Who's your tag team partner this week? Tag them 👇",
+      "cta": "Save it for Friday ⬇️ Post your team time in the comments."
+    },
+    {
+      "day": 13, "date": "2026-10-31", "format": "carousel", "photo": "class_01",
+      "type": "CHIPPER", "title": "The Grind", "hero": "CHIPPER",
+      "chips": ["6 Stations", "Cap 40:00", "Score: Time"],
+      "scheme": "For time, one pass straight through:",
+      "movements": [
+        {"reps": "1000 m", "name": "Row", "scaled": "750 m Row", "nogear": "1 km Run"},
+        {"reps": "50", "name": "Goblet Squats", "load": "24 / 16 kg", "scaled": "50 Goblet Squats · 16/12 kg", "nogear": "75 Air Squats"},
+        {"reps": "40", "name": "Push-ups", "scaled": "40 Incline Push-ups", "nogear": "40 Push-ups"},
+        {"reps": "30", "name": "Burpee Box Jump-overs", "load": "60 / 50 cm", "scaled": "30 Burpee Step-overs", "nogear": "30 Burpee Broad Jumps"},
+        {"reps": "20", "name": "Chest-to-Bar Pull-ups", "scaled": "20 Jumping Pull-ups", "nogear": "30 Superman Lifts"},
+        {"reps": "1000 m", "name": "Row", "scaled": "750 m Row", "nogear": "1 km Run"}
+      ],
+      "scaled_short": "750 m rows · KB 16/12 kg · incline push-ups · step-overs",
+      "nogear_short": "1 km runs · air squats · burpee broad jumps · supermans",
+      "target": "28–38 min",
+      "plan": {
+        "heading": "GAME PLAN",
+        "stimulus": "One long, steady effort. No round counting, no math — just chip away at each station until the list is empty.",
+        "tips": [
+          "First row: 80% effort. You need that energy for the second one.",
+          "Squats and push-ups: sets of 10 with 5 breaths between. Never go to failure.",
+          "Second row is a race. Whatever you have left — spend it there."
+        ]
+      },
+      "hook": "Saturday. Six stations. One long grind. Bring snacks. 💜",
+      "story": "Chippers are honest workouts: you start at the top, you finish at the bottom, and there's no shortcut in between. Grab your crew, put on a good playlist and grind it out together. Swipe for the scaling and the game plan →",
+      "tip": "Break everything early and on purpose. The people who finish fastest are the ones who never sit down.",
+      "question": "How long did The Grind take you? Did the second row hurt more than the first?"
+    },
+    {
+      "day": 14, "date": "2026-11-01", "format": "single", "photo": "burpee_f01",
+      "type": "TABATA", "title": "Reset Button", "hero": "TABATA",
+      "chips": ["16 Min", "Zero gear", "Score: Total reps"],
+      "scheme": "8 × (20 s work / 10 s rest) each · 1 min rest between:",
+      "movements": [
+        {"reps": "8×", "name": "Skater Hops", "scaled": "Skater Steps", "nogear": "Skater Hops"},
+        {"reps": "8×", "name": "Mountain Climbers", "scaled": "Slow Mountain Climbers", "nogear": "Mountain Climbers"},
+        {"reps": "8×", "name": "Glute Bridges", "scaled": "Glute Bridges", "nogear": "Glute Bridges"},
+        {"reps": "8×", "name": "Plank Shoulder Taps", "scaled": "Knee Shoulder Taps", "nogear": "Plank Shoulder Taps"}
+      ],
+      "scaled_short": "Skater steps · slow climbers · knee shoulder taps",
+      "nogear_short": "Already zero gear — living room, park, hotel room.",
+      "target": "Same reps in round 1 and round 8",
+      "hook": "Sunday reset. 16 minutes, one square metre of floor, zero excuses. 🌿",
+      "story": "After a big week, Sunday is about moving well, not moving to exhaustion. Hop side to side, climb, bridge and hold — your body will thank you on Monday.",
+      "tip": "Don't sprint the first 20 seconds. Pick a pace you can repeat eight times — that's the whole game.",
+      "question": "Where are you doing your Sunday reset today? 🏠🌳"
+    }
+  ]
+}

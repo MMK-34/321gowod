@@ -1,12 +1,411 @@
 {
-  "_note": "Envato Elements, lisans projesi: 321GO Instagram. focus = CSS object-position (kırpmada odak noktası).",
-  "photos": {
-    "kettlebell_swing_m01":  {"tags": ["kettlebell", "swing", "hinge"], "focus": "38% 30%", "source": "Man Working out with Kettlebell in Urban Setting — Click_and_Photo"},
-    "wall_ball_m01":         {"tags": ["wall ball", "medicine ball", "squat", "thruster"], "focus": "50% 35%", "source": "Man Doing Overhead Squat with a Medicine Ball — LightFieldStudios"},
-    "barbell_overhead_m01":  {"tags": ["barbell", "clean", "snatch", "overhead", "olympic"], "focus": "50% 40%", "source": "Man Lifting Heavy Barbell in Dark Gym — Image-Source"},
-    "deadlift_m01":          {"tags": ["barbell", "deadlift", "hinge"], "focus": "50% 45%", "source": "Man Lifting Barbell in Gym with Green Weights — demopicture"},
-    "partner_highfive_mf01": {"tags": ["partner", "team", "chalk"], "focus": "50% 30%", "source": "Gym Partnership for Fitness and Health — Click_and_Photo"},
-    "row_m01":               {"tags": ["row", "erg", "cardio"], "focus": "55% 50%", "source": "Man Using Rowing Machine at the Gym — Juan_Algar"},
-    "jump_squat_f01":        {"tags": ["jump", "squat", "bodyweight", "tabata"], "focus": "50% 45%", "source": "Athletic Woman Jumps in Dark Sports Environment — ArtemVarnitsin"}
+ "_note": "Envato Elements, lisans projesi: 321GO Instagram. focus = CSS object-position (kırpmada odak noktası).",
+ "photos": {
+  "kettlebell_swing_m01": {
+   "tags": [
+    "kettlebell",
+    "swing",
+    "hinge"
+   ],
+   "focus": "38% 30%",
+   "source": "Man Working out with Kettlebell in Urban Setting — Click_and_Photo"
+  },
+  "wall_ball_m01": {
+   "tags": [
+    "wall ball",
+    "medicine ball",
+    "squat",
+    "thruster"
+   ],
+   "focus": "50% 35%",
+   "source": "Man Doing Overhead Squat with a Medicine Ball — LightFieldStudios"
+  },
+  "barbell_overhead_m01": {
+   "tags": [
+    "barbell",
+    "clean",
+    "snatch",
+    "overhead",
+    "olympic"
+   ],
+   "focus": "50% 40%",
+   "source": "Man Lifting Heavy Barbell in Dark Gym — Image-Source"
+  },
+  "deadlift_m01": {
+   "tags": [
+    "barbell",
+    "deadlift",
+    "hinge"
+   ],
+   "focus": "50% 45%",
+   "source": "Man Lifting Barbell in Gym with Green Weights — demopicture"
+  },
+  "partner_highfive_mf01": {
+   "tags": [
+    "partner",
+    "team",
+    "chalk"
+   ],
+   "focus": "50% 30%",
+   "source": "Gym Partnership for Fitness and Health — Click_and_Photo"
+  },
+  "row_m01": {
+   "tags": [
+    "row",
+    "erg",
+    "cardio"
+   ],
+   "focus": "55% 50%",
+   "source": "Man Using Rowing Machine at the Gym — Juan_Algar"
+  },
+  "jump_squat_f01": {
+   "tags": [
+    "jump",
+    "squat",
+    "bodyweight",
+    "tabata"
+   ],
+   "focus": "50% 45%",
+   "source": "Athletic Woman Jumps in Dark Sports Environment — ArtemVarnitsin"
+  },
+  "burpee_f01": {
+   "tags": [
+    "burpee",
+    "push-up",
+    "bodyweight",
+    "floor",
+    "woman"
+   ],
+   "focus": "50% 45%",
+   "source": "Athletic Woman Performing Push-Ups with Suspension Straps — nazariykarkhut",
+   "envato_id": "12b5103f-d77a-468d-bd8c-46c658070e1b"
+  },
+  "burpee_m01": {
+   "tags": [
+    "burpee",
+    "push-up",
+    "bodyweight",
+    "floor",
+    "man"
+   ],
+   "focus": "50% 40%",
+   "source": "Man Doing Push Ups in the Gym — mstandret",
+   "envato_id": "6eedfc91-f6c1-4cec-83ee-94a9992bf01f"
+  },
+  "pushup_f01": {
+   "tags": [
+    "push-up",
+    "plank",
+    "burpee",
+    "bodyweight",
+    "core",
+    "woman"
+   ],
+   "focus": "45% 50%",
+   "source": "Determined Woman Exercising in a Dark Gym — wirestock",
+   "envato_id": "edff9104-4864-4f59-abde-7ab2fecef50d"
+  },
+  "db_f01": {
+   "tags": [
+    "dumbbell",
+    "db",
+    "snatch",
+    "clean",
+    "hinge",
+    "woman"
+   ],
+   "focus": "50% 35%",
+   "source": "Focused Woman Lifting Weights During Workout Session — zamrznutitonovi",
+   "envato_id": "2fbb7183-a39c-46fe-b01f-119f97464d48"
+  },
+  "db_m01": {
+   "tags": [
+    "dumbbell",
+    "db",
+    "curl",
+    "thruster",
+    "man"
+   ],
+   "focus": "50% 35%",
+   "source": "Man Working Out with Dumbbells in the Gym — dolgachov",
+   "envato_id": "64d6cfd2-f59b-4565-a816-662e9681f8d9"
+  },
+  "sled_f01": {
+   "tags": [
+    "sled",
+    "sled push",
+    "hyrox",
+    "woman"
+   ],
+   "focus": "50% 40%",
+   "source": "Woman Engaged in Sled Push at Gym — Gerain0812",
+   "envato_id": "d1eac056-610f-4c7f-bb94-5fc165f1cfe9"
+  },
+  "sled_m01": {
+   "tags": [
+    "sled",
+    "sled push",
+    "hyrox",
+    "man"
+   ],
+   "focus": "50% 45%",
+   "source": "Determined Young Man Pushing a Weighted Sled in a Gym — YuriArcursPeopleimages",
+   "envato_id": "49a21632-07dd-4c8a-a9ac-21f93e41dadc"
+  },
+  "ski_erg_f01": {
+   "tags": [
+    "ski erg",
+    "skierg",
+    "hyrox",
+    "cardio",
+    "pull",
+    "woman"
+   ],
+   "focus": "50% 40%",
+   "source": "Athletic Woman Training on a Ski Erg Machine in a Modern Gym — mstandret",
+   "envato_id": "dc622fad-f324-47ef-b322-a4c774c3fc64"
+  },
+  "ski_erg_m01": {
+   "tags": [
+    "ski erg",
+    "skierg",
+    "hyrox",
+    "cardio",
+    "man"
+   ],
+   "focus": "50% 55%",
+   "source": "Man Exercising Using a Ski Rowing Machine — YuriArcursPeopleimages",
+   "envato_id": "034c844f-a458-41c4-868c-281fdca78bba"
+  },
+  "bike_f01": {
+   "tags": [
+    "bike",
+    "air bike",
+    "assault bike",
+    "cardio",
+    "woman"
+   ],
+   "focus": "55% 40%",
+   "source": "Focused Woman Exercising on Stationary Bike in Gym — westend61",
+   "envato_id": "feb53d44-3f6c-4851-b0e8-fca0b31dae08"
+  },
+  "box_jump_f01": {
+   "tags": [
+    "box jump",
+    "box",
+    "jump",
+    "plyo",
+    "woman"
+   ],
+   "focus": "50% 50%",
+   "source": "Athletic Woman Performing Box Jump at Gym — nazariykarkhut",
+   "envato_id": "f6a52ae9-4570-4e2e-b0f9-c23320b4c10f"
+  },
+  "box_jump_f02": {
+   "tags": [
+    "box jump",
+    "box jump-over",
+    "box",
+    "jump",
+    "woman"
+   ],
+   "focus": "55% 45%",
+   "source": "Athletic Woman Jumping Over Wooden Box at Gym — GaudiLab",
+   "envato_id": "e1dbb670-ef44-4649-90f0-aac99c9a41c7"
+  },
+  "box_jump_m01": {
+   "tags": [
+    "box jump",
+    "box",
+    "jump",
+    "plyo",
+    "man"
+   ],
+   "focus": "50% 45%",
+   "source": "Man Performing Box Jump Exercise in Gym — BLACKDAY",
+   "envato_id": "38335649-429b-406b-8b9d-67156edb7af5"
+  },
+  "run_f01": {
+   "tags": [
+    "run",
+    "running",
+    "cardio",
+    "night",
+    "woman"
+   ],
+   "focus": "50% 35%",
+   "source": "Woman Runs Down City Street at Night — bernardbodo",
+   "envato_id": "b762d11b-d520-4ab1-8f28-e3f63e5d8cd9"
+  },
+  "run_m01": {
+   "tags": [
+    "run",
+    "running",
+    "sprint",
+    "cardio",
+    "man"
+   ],
+   "focus": "50% 45%",
+   "source": "Man Running on Crosswalk During Golden Hour — nunezimage",
+   "envato_id": "0b520915-d8ee-48f0-b59a-d66d77a7f5ce"
+  },
+  "pullup_f01": {
+   "tags": [
+    "pull-up",
+    "pull",
+    "gymnastics",
+    "bar",
+    "woman"
+   ],
+   "focus": "50% 35%",
+   "source": "Woman Doing Pull-Ups in a Dark Gym — GaudiLab",
+   "envato_id": "1614210c-669e-409e-841e-a6e842164bc0"
+  },
+  "pullup_f02": {
+   "tags": [
+    "pull-up",
+    "pull",
+    "gymnastics",
+    "bar",
+    "woman"
+   ],
+   "focus": "50% 30%",
+   "source": "Athletic Woman Doing Pull Ups in Gym — skarie20",
+   "envato_id": "565fd695-0205-450e-af0e-d5bf15ab8cd2"
+  },
+  "pullup_m01": {
+   "tags": [
+    "pull-up",
+    "pull",
+    "gymnastics",
+    "bar",
+    "man"
+   ],
+   "focus": "55% 35%",
+   "source": "Man Working Out at Gym Gripping Bar — svitlanah",
+   "envato_id": "97a84052-0474-434b-a74d-9772e8693151"
+  },
+  "farmers_carry_m01": {
+   "tags": [
+    "farmers carry",
+    "carry",
+    "kettlebell",
+    "hyrox",
+    "man"
+   ],
+   "focus": "50% 40%",
+   "source": "Muscular Adult Male Training with Kettle Bells Outdoors — djile",
+   "envato_id": "3c2a99be-a722-41f9-9fa9-1452d78862e3"
+  },
+  "kettlebell_f01": {
+   "tags": [
+    "kettlebell",
+    "swing",
+    "hinge",
+    "kb",
+    "woman"
+   ],
+   "focus": "45% 45%",
+   "source": "Athletic Woman Exercising With Kettlebell in Dark Gym — BeeBonnet",
+   "envato_id": "c6cd11f6-6177-4e5f-a1bc-3384a9fc837f"
+  },
+  "lunge_f01": {
+   "tags": [
+    "lunge",
+    "walking lunges",
+    "dumbbell",
+    "squat",
+    "woman"
+   ],
+   "focus": "50% 50%",
+   "source": "Woman Lunging with Dumbbell in Gym Setting — GaudiLab",
+   "envato_id": "27d747b1-74f9-4f87-aabf-12e307fd132a"
+  },
+  "lunge_f02": {
+   "tags": [
+    "lunge",
+    "sandbag lunges",
+    "dumbbell",
+    "squat",
+    "woman"
+   ],
+   "focus": "50% 45%",
+   "source": "Athletic Woman Exercising with Dumbbells in Studio — master1305",
+   "envato_id": "8b5f6ded-4405-4669-a143-f65833b37e1f"
+  },
+  "wall_ball_f01": {
+   "tags": [
+    "wall ball",
+    "medicine ball",
+    "squat",
+    "thruster",
+    "woman"
+   ],
+   "focus": "50% 40%",
+   "source": "Woman Holding Medicine Ball in Dark Gym — GaudiLab",
+   "envato_id": "30238703-0e3c-40e5-8b7d-71c751ec8355"
+  },
+  "jump_rope_f01": {
+   "tags": [
+    "jump rope",
+    "double unders",
+    "single unders",
+    "cardio",
+    "woman"
+   ],
+   "focus": "50% 25%",
+   "source": "Woman Exercising Outdoors with Jump Rope Fitness — javi_indy",
+   "envato_id": "3da0389b-a3a5-49a6-a5ad-8f2af8c99413"
+  },
+  "sandbag_f01": {
+   "tags": [
+    "sandbag",
+    "sandbag lunges",
+    "squat",
+    "hyrox",
+    "woman"
+   ],
+   "focus": "55% 40%",
+   "source": "Focused Woman Squats with Weight Bag in Gym — wirestock",
+   "envato_id": "4e7f5960-b754-4d2b-afd4-da174386d2b9"
+  },
+  "class_01": {
+   "tags": [
+    "team",
+    "class",
+    "group",
+    "deadlift",
+    "barbell",
+    "chipper"
+   ],
+   "focus": "50% 45%",
+   "source": "Weightlifting Workout Session at the Gym — Image-Source",
+   "envato_id": "84ac2beb-9007-4a93-a69f-6f07cf4fd70b"
+  },
+  "class_02": {
+   "tags": [
+    "team",
+    "class",
+    "group",
+    "barbell",
+    "partner",
+    "chipper"
+   ],
+   "focus": "50% 40%",
+   "source": "People Working Out with Barbells at a Gym — micens",
+   "envato_id": "225e3cb3-500f-4066-bc26-666235c7eb0c"
+  },
+  "partner_ff01": {
+   "tags": [
+    "partner",
+    "team",
+    "high five",
+    "friends",
+    "women"
+   ],
+   "focus": "50% 35%",
+   "source": "Two Smiling Women High Fiving in the Gym — s_kawee",
+   "envato_id": "f9bfc082-d2e7-418b-8ac6-4b282b903afb"
   }
+ }
 }

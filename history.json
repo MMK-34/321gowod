@@ -80,5 +80,87 @@
    "Hollow Rocks",
    "Burpees"
   ]
+ },
+ {
+  "date": "2026-10-26",
+  "day": 8,
+  "title": "Fast Lane",
+  "type": "FOR TIME",
+  "movements": [
+   "DB Thrusters",
+   "Cal Bike"
+  ]
+ },
+ {
+  "date": "2026-10-27",
+  "day": 9,
+  "title": "Pendulum",
+  "type": "EMOM",
+  "movements": [
+   "12 DB Snatches",
+   "10 Pull-ups",
+   "10 Box Jumps",
+   "15 Sit-ups"
+  ]
+ },
+ {
+  "date": "2026-10-28",
+  "day": 10,
+  "title": "Compromised",
+  "type": "AMRAP",
+  "movements": [
+   "Run",
+   "Wall Balls",
+   "Sandbag Lunges",
+   "Burpee Broad Jumps"
+  ]
+ },
+ {
+  "date": "2026-10-29",
+  "day": 11,
+  "title": "Pressure Point",
+  "type": "LADDER",
+  "movements": [
+   "Push Press",
+   "Bar-facing Burpees"
+  ]
+ },
+ {
+  "date": "2026-10-30",
+  "day": 12,
+  "title": "Tag Team",
+  "type": "PARTNER",
+  "movements": [
+   "Relay Run",
+   "Kettlebell Swings",
+   "Toes-to-Bar",
+   "Synchro Farmers Carry"
+  ]
+ },
+ {
+  "date": "2026-10-31",
+  "day": 13,
+  "title": "The Grind",
+  "type": "CHIPPER",
+  "movements": [
+   "Row",
+   "Goblet Squats",
+   "Push-ups",
+   "Burpee Box Jump-overs",
+   "Chest-to-Bar Pull-ups",
+   "Row"
+  ]
+ },
+ {
+  "date": "2026-11-01",
+  "day": 14,
+  "title": "Reset Button",
+  "type": "TABATA",
+  "movements": [
+   "Skater Hops",
+   "Mountain Climbers",
+   "Glute Bridges",
+   "Plank Shoulder Taps"
+  ]
  }
 ]
