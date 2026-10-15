@@ -60,15 +60,13 @@
  {
   "date": "2026-10-24",
   "day": 6,
-  "title": "The Long Way",
-  "type": "CHIPPER",
+  "title": "Race Pace",
+  "type": "HYBRID",
   "movements": [
+   "SkiErg",
+   "Sled Push",
    "Row",
-   "Goblet Squats",
-   "Sit-ups",
-   "DB Push Press",
-   "Bar-facing Burpees",
-   "Strict Pull-ups"
+   "Wall Balls"
   ]
  },
  {
