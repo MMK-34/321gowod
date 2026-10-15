@@ -11,7 +11,7 @@ jobs:
     env:
       GH_PAT: ${{ secrets.GH_PAT }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - id: refresh
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
