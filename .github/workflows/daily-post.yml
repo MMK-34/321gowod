@@ -2,7 +2,7 @@ name: Daily WOD post
 
 on:
   schedule:
-    - cron: "0 11 * * *"   # 11:00 UTC = 14:00 Istanbul, 07:00 New York
+    - cron: "0 3 * * *"    # 03:00 UTC = 06:00 Istanbul
   workflow_dispatch:
     inputs:
       date:
