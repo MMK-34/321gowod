@@ -46,7 +46,8 @@ def wait_ready(container):
 def publish(date):
     day = ROOT / "posts" / date
     if not day.exists():
-        sys.exit(f"no post for {date}")
+        print(f"no post scheduled for {date}")
+        return
     if (day / "published.json").exists():
         print(f"{date} already published")
         return
