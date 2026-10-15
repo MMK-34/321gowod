@@ -4,3 +4,6 @@ library/videos/
 out/
 __pycache__/
 *.pyc
+
+# Paid products (PDFs) must never be public
+shop/
