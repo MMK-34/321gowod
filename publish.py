@@ -80,8 +80,11 @@ def publish(date):
 
 def refresh():
     q = urllib.parse.urlencode({"grant_type": "ig_refresh_token", "access_token": os.environ["IG_TOKEN"]})
-    with urllib.request.urlopen(f"https://graph.instagram.com/refresh_access_token?{q}", timeout=60) as r:
-        res = json.loads(r.read())
+    try:
+        with urllib.request.urlopen(f"https://graph.instagram.com/refresh_access_token?{q}", timeout=60) as r:
+            res = json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        sys.exit(f"Instagram API error on refresh_access_token: {e.read().decode()}")
     days = res["expires_in"] // 86400
     print(f"token refreshed, valid for {days} more days")
     out = os.environ.get("GITHUB_OUTPUT")
